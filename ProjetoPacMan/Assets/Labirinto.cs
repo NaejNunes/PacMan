@@ -9,7 +9,7 @@ public class Labirinto : MonoBehaviour
     void Start()
     {
         diretor = GameObject.FindObjectOfType<Diretor>();
-        int total = GameObject.FindGameObjectsWithTag("pontos").Length;
+        int total = GameObject.FindGameObjectsWithTag("ponto").Length;
         diretor.AdicionarPontosMaximo(total);
     }
 
